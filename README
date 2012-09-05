@@ -1,0 +1,7 @@
+Emacs has this inferior-lisp mode where you can send lisp forms to a running lisp image. This can either be a common-lisp (although Slime is more specialized at that), or a scheme, or as it turns out, it can be emacs itself.
+
+Put these two files in a directory someplace,
+
+Then, simply tell emacs to make ee.sh your inferior-lisp-program.
+
+Before the novelty wears off, a better version might simply be a reader that speaks emacsclient...
